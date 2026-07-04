@@ -1,0 +1,14 @@
+{
+  "name": "aicu-l12-ticketing-urgency-label",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
+  "scripts": {
+    "dev": "node server/index.js",
+    "start": "node server/index.js",
+    "check": "node --check server/index.js && node --check src/main.js"
+  }
+}
